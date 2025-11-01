@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+	<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body style="background-color: #d0efef">
+    <p><b><u>Formulaire d’inscription à la formation de programmation web</u></b></p>
+    <br><br>
+</body>
+<footer>
+    <form action="/traiment obligatoires" method="post"> 
+        <label for="Nom">Nom:</label>
+        <input type="text"name="Nom" placeholder="Rentrer votre Nom" required>
+        <br><br>
+
+        <label for="Prenom">Prénom:</label>
+        <input type="text" Prenom="Prénom" placeholder="Rentrer votre prénom" required>
+        <br><br>
+
+        <p>Choisir notre sexe</p>
+        <input type="radio" value="fi" name="personne"required> F <br>
+        <input type="radio" value="gacon" name="personne" required> M<br> <br>
+
+        <label for="naissance">Date de naissance :</label>
+        <input type="date" id="naissance" name="naissance" min="1925-01-01" max="2025-11-01">
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Rentre votre email"required>
+        <br><br>
+
+        <label for="phone">Téléphone:</label><br/>
+        <input   id="phone"  name="phone" type="tel" placeholder="+509" required    maxlength="12"   pattern="^\+509[0-9]{8}$"/>
+     
+        <br><br>
+        
+        <label for="url">Notre site:</label>
+        <input type="url" placeholder="Rentre votre site" required> <br><br>
+        
+        <label for="search">Recherche:</label>
+        <input type="search" placeholder="Effectuer une recherche"> <br><br>  
+
+        <label for="file">Fichier:</label>
+        <input type="file" required> <br><br>
+
+        <label for="range"> Votre Satisfaction </label>
+        <input type="range"min="0" max="100" value="70"> <br><br>
+        
+        <label for="color">Couleur:</label>
+        <input type="color"> <br><br>
+        
+
+        <label for="reset"></label>
+        <input type="reset" value="Eface"> <br><br>
+                
+
+        <textarea cols="30" rows="10" placeholder="Donnez votre objectif"></textarea>
+        <br><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+                <p>&copy;2025 Ce site web. touts droits révés.</p>  		 
+				<h6>&copy; CV Jeankinson Duperoy</h6>
+					<hr>
+</footer>
+
+</html>
